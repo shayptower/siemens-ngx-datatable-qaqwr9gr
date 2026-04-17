@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { delay } from 'rxjs/operators';
 
-const TOTAL_ROWS = 110_500;
+const TOTAL_ROWS = 1_010_500;
 
 const COLUMNS = [
   { name: 'ID' },
