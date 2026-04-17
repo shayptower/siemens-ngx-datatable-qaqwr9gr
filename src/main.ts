@@ -21,7 +21,7 @@ import { DataTableColumnDirective, DatatableComponent } from '@siemens/ngx-datat
       <ngx-datatable-column name="field2" />
     </ngx-datatable>
   `
-})
+}) //t
 export class App {
   mockData = new Array(100).fill(0).map((_, i) => ({
     index: i,
